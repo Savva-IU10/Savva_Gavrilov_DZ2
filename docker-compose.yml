@@ -1,0 +1,5 @@
+version: '3.8'
+services:
+  python-sleeper:
+    image: python:3.9
+    command: sleep 1000
